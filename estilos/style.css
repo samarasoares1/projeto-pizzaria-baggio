@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #F27F1B;
+    --cor2: #A65A17;
+    --cor3: #734217;
+    --cor4: #161616;
+    --cor5: #0D0D0D;
+    --cor6: #E2D9D1;
+
+    --font-destaque: 'Hammersmith One', sans-serif;
+    --font-padrao: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    overflow-x: hidden;
+}
+article{
+    background-image: url(../imagens/fundo5.png);
+    background-position: center center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+    width: 100vw;
+    height: 590px;
+}
+
+nav li{
+    display: inline-block;
+   background-color: var(--cor6);
+   padding: 7px;
+   font-family: var(--font-destaque);
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    text-decoration: underline;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: end;
+    
+    width: 65vw;
+}
+
+header img#logo{
+    width: 130px;
+    border-radius: 50%;
+}
+div#menu{
+    
+    text-align: end;
+    width: 100%; 
+}
+h1{
+    font-family: var(--font-destaque);
+    font-weight: lighter;
+}
+img#img-supreme{
+    width: 100vw;
+}
+
+
+
+
+section#eslogan{
+    margin-left: 110px;
+    color: white;
+}
+.aprecie{
+    font-family: var(--font-padrao);
+    font-size: 1.5em;
+}
+.melhor{
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    font-size: 3em;
+}
+.paulo{
+    font-family: var(--font-padrao);
+    font-size: 1.5em;
+}
+button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    font-family: var(--font-padrao);
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: darkred;
+}
+button a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+section#delivery{
+    display: flex;
+    width: 100vw;
+    height: 140px;
+    background-color: var(--cor4);
+}
+section h2{
+    font-size: 1.2em;
+    color: white;
+    margin: 20px 0px 10px 40px;
+    font-family: var(--font-padrao);
+}
+section p {
+    font-size: 1em;
+    color: white;
+    margin: 0px 0px 10px 40px;
+    font-family: var(--font-padrao);
+}
+button#del{
+    color: white;
+}
+span{
+    vertical-align: middle;
+}
+div.d1{
+    align-self: center;
+}
+div.d2{
+    align-self: center;
+}
+
+
+
+section#photos{
+    background-image: url(../imagens/fundo2.png);
+    background-position: center center;
+    background-size: cover;
+   
+    width: 100vw;
+    height: 720px;
+}
+section#photos h2{
+    padding-top: 20px;
+    font-family: var(--font-padrao);
+}
+
+
+section#avaliacao {
+    background-color: #A65A17;
+    width: 100vw;
+    height: 550px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#avaliacao img{
+    width: 900px;
+    
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+}
+footer img.logo2{
+    
+    align-items: flex-end;
+    width: 300px;
+}
+
+
+footer img.social{
+    width: 35px;
+    height: 35px;
+}
+footer a{
+    margin-left: 10px;
+    background-color: var(--cor6);
+    padding: 20px;
+    border-radius: 50%;
+}
+footer a:hover{
+    background-color: gray;
+}
+
+
+
+section#fim{
+    width: 100%;
+    height: 25px;
+    font-size: 0.9em;
+    text-align: center;
+    
+    color: white;
+    background-color: black;
+
+    
+}
+section#fim a {
+    text-decoration: none;
+    color: white;
+}
+
+
