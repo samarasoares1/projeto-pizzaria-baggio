@@ -25,19 +25,7 @@ body{
     background-color: #161616;
     overflow-x: hidden;
 }
-article{
-    background-image: url(../imagens/fundo5.png);
-    background-position: center center;
-    background-size: cover;
-    
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
 
-    width: 100vw;
-    height: 590px;
-}
 
 nav li{
     display: inline-block;
@@ -80,7 +68,19 @@ img#img-supreme{
 
 
 
+article{
+    background-image: url(../imagens/fundo5.png);
+    background-position: center center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
 
+    width: 100vw;
+    height: 590px;
+}
 section#eslogan{
     margin-left: 110px;
     color: white;
@@ -177,10 +177,10 @@ section#avaliacao {
     justify-content: center;
     align-items: center;
 }
-section#avaliacao img{
-    width: 900px;
-    
+.ava2{
+    display: none;
 }
+
 
 
 footer{

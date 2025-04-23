@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+    }
+    nav li{
+        font-size: 0.8em;
+        text-align: right;
+    }
+    article{
+        background-image: url(../imagens/pizza-7.jpg);
+    }
+
+    section#photos{
+        background-image: url(../imagens/fundo02-mobile.png);
+      
+    }
+    section#photos h2{
+        padding: 10px;
+        background-color: black;
+        width: max-content;
+    }
+
+
+
+    section#avaliacao{
+        background-color: #733612;
+    }
+    .ava1{
+        display: none;
+    }
+    img.ava2{
+        display: flex;
+
+        width: 300px;
+    }
+
+
+    footer img.logo2{
+        width: 150px;
+    }
+    footer img.social{
+        width: 15px;
+        height: 15px;
+    }
+}
